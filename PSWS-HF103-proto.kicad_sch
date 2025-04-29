@@ -1,0 +1,225 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "762aef0a-d6ed-4651-8b7c-2ddb5c2c230b")
+	(paper "USLetter")
+	(title_block
+		(title "PSWS-HF103-proto")
+		(date "2025-04-28")
+		(rev "0.1.0")
+		(company "Dave Witten, KD0EAG")
+		(comment 2 "[ A Minimalist Rework of HF-103 designed by Oskar Stella, ik1xpv ]")
+		(comment 3 "Infineon/Cypress  FX3 DevKit and LTC2208 Demo modules")
+		(comment 4 "A development straw-man based on the")
+	)
+	(lib_symbols)
+	(text "PSWS HF103 original prototype"
+		(exclude_from_sim no)
+		(at 136.398 33.782 0)
+		(effects
+			(font
+				(size 8 8)
+				(thickness 1.6)
+				(bold yes)
+				(color 0 0 72 1)
+			)
+		)
+		(uuid "5b6df05e-9857-4351-8406-cec5da3813a5")
+	)
+	(sheet
+		(at 114.554 60.198)
+		(size 54.61 33.02)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "01482097-4e34-431f-952c-34d4f1408c9a")
+		(property "Sheetname" "Filters"
+			(at 144.399 101.473 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Sheetfile" "PSWS-HF103-proto_Filters.kicad_sch"
+			(at 127.254 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-HF103-proto"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.069 60.833)
+		(size 57.15 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46af3ed1-a429-4b49-8bed-1eb85b11428e")
+		(property "Sheetname" "USB"
+			(at 63.119 101.473 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSWS-HF103-proto_USB.kicad_sch"
+			(at 44.069 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-HF103-proto"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.499 60.833)
+		(size 50.165 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93a69905-dc73-446d-812a-de5f5715e64a")
+		(property "Sheetname" "ADC"
+			(at 200.914 101.473 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSWS-HF103-proto_ADC.kicad_sch"
+			(at 189.484 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-HF103-proto"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 79.629 114.808)
+		(size 53.975 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1720e7c-5f6d-479f-8fc0-dd1aaf58c9d1")
+		(property "Sheetname" "Timing"
+			(at 94.234 155.448 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSWS-HF103-proto_Timing.kicad_sch"
+			(at 80.264 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-HF103-proto"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.654 114.808)
+		(size 53.975 32.385)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7acaed2-a28c-482a-a667-bcbdb462effb")
+		(property "Sheetname" "Power"
+			(at 167.259 154.813 0)
+			(effects
+				(font
+					(size 5 5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSWS-HF103-proto_Power.kicad_sch"
+			(at 153.289 112.903 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PSWS-HF103-proto"
+				(path "/762aef0a-d6ed-4651-8b7c-2ddb5c2c230b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
